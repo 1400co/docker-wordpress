@@ -20,7 +20,7 @@ services:
       - ./src/plugins:/var/www/html/wp-content/plugins
       - ./src/uploads:/var/www/html/wp-content/uploads
     ports:
-      - "8000:80"
+      - "8004:8004"
     restart: always
     environment:
       WORDPRESS_DB_HOST: db
